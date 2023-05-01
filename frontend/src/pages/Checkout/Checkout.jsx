@@ -26,7 +26,7 @@ const Checkout = () => {
   let total = 0;
   const handleRemove = (i) => {
     const obj = {
-      userId: user.id,
+      userId: user?.id || JSON.parse(localStorage.getItem("guest")).userId,
       id: i.id,
       size: i.size,
     };
@@ -71,14 +71,14 @@ const Checkout = () => {
             }
             return (
               <div key={item.id+i}>
-                <div className="flex flex-col p-8">
+                <div className="flex flex-col p-8 xs:px-0">
                   <div className="flex justify-between items-center bg-gray-200 p-3">
-                    <div className="flex">
-                      <img src={item.img1} alt="" className="w-[25%]" />
-                      <p className="pl-[20px] text-2xl mt-6">{item.name}</p>
+                    <div className="flex ">
+                      <img src={item.img1} alt="" className="w-[25%] min-w-[80px]" />
+                      <p className="pl-[20px] text-2xl mt-6 xs:px-2">{item.name}</p>
                     </div>
                     <div className="text-2xl text-gray-500">{item.size}</div>
-                    <div className="text-gray-600 text-xl mr-10 flex flex-col items-center justify-between">
+                    <div className="text-gray-600 text-xl mr-10 xs:m-0 flex flex-col items-center justify-between">
                       <p className="text-black font-bold">{item.price}$</p>
                       <p className="mt-[50%] mb-2">x{item.numOfItem}</p>
                       <p

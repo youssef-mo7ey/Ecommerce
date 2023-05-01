@@ -8,14 +8,14 @@ const DeliveryOnTheWay = () => {
   return (
     <div className='relative flex flex-col main '>
         <div className='mt-10 mx-auto flex flex-col'>
-            <BsFillCheckCircleFill className=' text-[1400%] text-green-600 text-black '/>
+            <BsFillCheckCircleFill className=' text-[1400%] text-green-600  '/>
             <Link to='/' className='text-xl my-7 ml-1 underline text-blue-800 capitalize hover:opacity-[0.7] active:text-red-600'>
                 Go Back To Home Page
             </Link>
         </div>
-        <div className="surface ">
+        <div className="surface xs:top-[87%]">
         </div>
-        <div className='car -bottom-[40%] left-[15%] absolute animate-bounce'>
+        <div className='car -bottom-[45%] left-[15%] xs:-bottom-[146%] absolute animate-bounce'>
             <MdDeliveryDining className='text-[100px] text-gray-800 z-20'/>
         </div>
 

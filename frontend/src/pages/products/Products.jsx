@@ -6,7 +6,7 @@ import LoadingPage from "../../components/loading page/LoadingPage";
 import "./products.css";
 
 function Products() {
-  const { data, load, err } = useFetch("http://localhost:3000/products");
+  const { data, load, err } = useFetch("https://mern-ecommerce-app-42rq.onrender.com/products");
 
   let [rangeVal, setRangeVal] = useState(100);
 

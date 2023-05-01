@@ -22,7 +22,7 @@ function Home() {
   sliderArray = [image1, image2, image3];
   const [slide, setSlide] = useState(0);
 
-  const {data,load,err} = useFetch("http://localhost:3000/products");
+  const {data,load,err} = useFetch("https://mern-ecommerce-app-42rq.onrender.com/products");
   const newCols=data?.slice(0,3)
   const user=useSelector(u)
   const dispatch=useDispatch()

@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk, nanoid } from "@reduxjs/toolkit";
 import Axios from "axios";
 
-const url = "http://localhost:3000/users/login";
+const url = "https://mern-ecommerce-app-42rq.onrender.com/users/login";
 const user = JSON.parse(localStorage.getItem("user")) || null;
 
 export const logInHandler = createAsyncThunk(

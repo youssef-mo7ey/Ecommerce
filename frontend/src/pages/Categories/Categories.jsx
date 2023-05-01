@@ -7,7 +7,7 @@ import LoadingPage from '../../components/loading page/LoadingPage'
 
 const Categories = () => {
   let {categ}=useParams()
-  const {data,load}=useFetch("http://localhost:3000/products")
+  const {data,load}=useFetch("https://mern-ecommerce-app-42rq.onrender.com/products")
   
   if(load)
   {

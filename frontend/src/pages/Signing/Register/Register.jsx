@@ -30,7 +30,7 @@ const Register = ({ setSignUp }) => {
     else{
     try {
       const res = await Axios.post(
-        "http://localhost:3000/users/register",
+        "https://mern-ecommerce-app-42rq.onrender.com/users/register",
         newUser
       );
       if(res){

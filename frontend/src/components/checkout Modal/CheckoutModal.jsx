@@ -22,15 +22,15 @@ const CheckoutModal = ({setModal}) => {
     const handleSubmit =async ()=>{
         if(user){
             const addPhone = await axios.patch(
-                "http://localhost:3000/users/phone/" + user.id,
+                "https://mern-ecommerce-app-42rq.onrender.com/users/phone/" + user.id,
                 { phone: phone }
               );
             const addAddress = await axios.patch(
-                "http://localhost:3000/users/address/" + user.id,
+                "https://mern-ecommerce-app-42rq.onrender.com/users/address/" + user.id,
                 { address: address }
               );
             dispatch(updatePhoneOrAddress({address:address,phone:phone}))
-            let clear=await axios.delete(`http://localhost:3000/cart/${user.id}`)
+            let clear=await axios.delete(`https://mern-ecommerce-app-42rq.onrender.com/cart/${user.id}`)
 
         }
         if(!user){
@@ -41,7 +41,7 @@ const CheckoutModal = ({setModal}) => {
                 phone:phone,
                 address:address}
             localStorage.setItem("guest",JSON.stringify(obj))    
-            let clear=await axios.delete(`http://localhost:3000/cart/${guestId}`)
+            let clear=await axios.delete(`https://mern-ecommerce-app-42rq.onrender.com/cart/${guestId}`)
         }
         dispatch(resetCart())
         localStorage.removeItem("guest")

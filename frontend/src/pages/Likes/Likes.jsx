@@ -10,7 +10,7 @@ import {AiOutlineArrowLeft } from "react-icons/ai"
 const Likes = () => {
 
     let user = useSelector(u)
-    const {data,load}=useFetch(`http://localhost:3000/likes/${user.id}`)
+    const {data,load}=useFetch(`https://mern-ecommerce-app-42rq.onrender.com/likes/${user.id}`)
 
 
     return (

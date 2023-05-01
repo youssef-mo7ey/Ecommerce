@@ -8,7 +8,7 @@ export const getCart = createAsyncThunk(
   async (args, thunkAPI) => {
     try {
       let guest =JSON.parse(localStorage.getItem("guest"))
-      let res = await axios.get(`http://localhost:3000/cart/${args || guest.userId}`); 
+      let res = await axios.get(`https://mern-ecommerce-app-42rq.onrender.com/cart/${args || guest.userId}`); 
       return res.data || null;
     } catch (err) {
       return thunkAPI.rejectWithValue(err.message);
@@ -23,19 +23,19 @@ export const addToCart = createAsyncThunk(
       
       let guestId =JSON.parse(localStorage.getItem("guest"))  
       if (args.userId || guestId) {
-        let post = await axios.post(`http://localhost:3000/cart`, {userId:args.userId || guestId.userId,prodDetails:args.prodDetails});
-        let res = await axios.get(`http://localhost:3000/cart/${args.userId || guestId.userId}`);
+        let post = await axios.post(`https://mern-ecommerce-app-42rq.onrender.com/cart`, {userId:args.userId || guestId.userId,prodDetails:args.prodDetails});
+        let res = await axios.get(`https://mern-ecommerce-app-42rq.onrender.com/cart/${args.userId || guestId.userId}`);
         return res.data || null;
       } else {
 
-        let post = await axios.post(`http://localhost:3000/cart/guest`, args);
+        let post = await axios.post(`https://mern-ecommerce-app-42rq.onrender.com/cart/guest`, args);
         let guest ={
             userId:post.data.userId,
             phone:"",
             address:""
         }
         localStorage.setItem("guest",JSON.stringify(guest))
-        let res = await axios.get(`http://localhost:3000/cart/${post.data.userId}`);
+        let res = await axios.get(`https://mern-ecommerce-app-42rq.onrender.com/cart/${post.data.userId}`);
         console.log(res)
         return res.data || null
       }
@@ -49,7 +49,7 @@ export const removeFromCart = createAsyncThunk(
   "cart/removeFromCart",
   async (args, thunkAPI) => {
     try {
-      let deleting = await axios.delete("http://localhost:3000/cart", {
+      let deleting = await axios.delete("https://mern-ecommerce-app-42rq.onrender.com/cart", {
         data: args,
       });
       let res;
@@ -57,7 +57,7 @@ export const removeFromCart = createAsyncThunk(
         res = getCart(args.userId);
       } else {
         res =
-          (await axios.get(`http://localhost:3000/cart/${args.userId}`)) ||
+          (await axios.get(`https://mern-ecommerce-app-42rq.onrender.com/cart/${args.userId}`)) ||
           null;
       }
       return res.data;
@@ -71,8 +71,8 @@ export const updateNumber = createAsyncThunk(
   "cart/updateNumber",
   async (args, thunkAPI) => {
     try {
-      const cart = await axios.patch("http://localhost:3000/cart", args);
-      const res = await axios.get("http://localhost:3000/cart/" + args.userId);
+      const cart = await axios.patch("https://mern-ecommerce-app-42rq.onrender.com/cart", args);
+      const res = await axios.get("https://mern-ecommerce-app-42rq.onrender.com/cart/" + args.userId);
       return res.data;
     } catch (err) {
       return thunkAPI.rejectWithValue(err.message);
@@ -85,9 +85,9 @@ export const handleCheckOut = createAsyncThunk(
   async (args, thunkAPI) => {
     try {
       const checkingout = await axios.delete(
-        "http://localhost:3000/cart/" + args
+        "https://mern-ecommerce-app-42rq.onrender.com/cart/" + args
       );
-      const res = await axios.get("http://localhost:3000/cart/" + args);
+      const res = await axios.get("https://mern-ecommerce-app-42rq.onrender.com/cart/" + args);
       return res.data;
     } catch (err) {
       return thunkAPI.rejectWithValue(err.message);

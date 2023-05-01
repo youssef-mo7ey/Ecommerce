@@ -30,7 +30,7 @@ const Account = () => {
 
   const handlePhone = async () => {
     const addPhone = await axios.patch(
-      "http://localhost:3000/users/phone/" + user.id,
+      "https://mern-ecommerce-app-42rq.onrender.com/users/phone/" + user.id,
       { phone: phoneNum }
     );
 
@@ -40,7 +40,7 @@ const Account = () => {
   };
   const handleAddress = async () => {
     const addAddress = await axios.patch(
-      "http://localhost:3000/users/address/" + user.id,
+      "https://mern-ecommerce-app-42rq.onrender.com/users/address/" + user.id,
       { address: addr }
     );
 

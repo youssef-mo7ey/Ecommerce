@@ -26,11 +26,11 @@ function Product() {
   const user = useSelector(u);
   const [num,setNum]=useState(1)
   const dispatch = useDispatch();
-  const { data, load } = useFetch(`http://localhost:3000/products/${id}`);
+  const { data, load } = useFetch(`https://mern-ecommerce-app-42rq.onrender.com/products/${id}`);
 
   const isLiked=async ()=>{
     try {
-      let likeFlag=await axios.get(`http://localhost:3000/likes/${user?.id}/${id}`)
+      let likeFlag=await axios.get(`https://mern-ecommerce-app-42rq.onrender.com/likes/${user?.id}/${id}`)
       if(likeFlag.data){
         console.log(likeFlag)
         setLiked(true)
@@ -82,7 +82,7 @@ function Product() {
     }
   };
 
-//  let lf=useFetch(`http://localhost:3000/likes/${user?.id}/${id}`);
+//  let lf=useFetch(`https://mern-ecommerce-app-42rq.onrender.com/likes/${user?.id}/${id}`);
   //console.log(lf)
 
   
@@ -94,9 +94,9 @@ function Product() {
         prodId: data._id,
       };
       console.log(likeObj);
-      axios.post("http://localhost:3000/likes", likeObj);
+      axios.post("https://mern-ecommerce-app-42rq.onrender.com/likes", likeObj);
     } else if (liked) {
-      axios.delete(`http://localhost:3000/likes/${user?.id}/${data._id}`);
+      axios.delete(`https://mern-ecommerce-app-42rq.onrender.com/likes/${user?.id}/${data._id}`);
       setLiked(false);
     }
   };
@@ -119,9 +119,9 @@ function Product() {
   if (load) return <LoadingPage />;
 
   return (
-    <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-5 sm:grid-cols-1 px-[10%] py-[5%]">
-      <div className="left flex">
-        <div className="flex gap-3 container" onClick={handleiIndex}>
+    <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-5 sm:grid-cols-1 px-[10%] xs:px-0 py-[5%]">
+      <div className="left-side flex">
+        <div className="flex gap-3 justify-start xs:w-[70vw] container " onClick={handleiIndex}>
           <img
             src={iIndex === 1 ? data?.img2 : data?.img1}
             alt="no pic"

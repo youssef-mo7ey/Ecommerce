@@ -4,10 +4,10 @@ import './Footer.css'
 const Footer = () => {
   return (
     <>
-        <div className='footer px-[15%]  '>
-            <div className='left-side flex gap-16 container select-none  '>
+        <div className='footer container'>
+            <div className='left-side flex gap-[10%] container select-none p-[5%]  '>
 
-            <div className='left-1 '>
+            <div className='left-2 container'>
                 <h2 className='text-md font-bold py-2 text-[#333]'>Categories</h2>
                 <div className="categories flex flex-col">
                     <span className='text-xs font-semibold py-1 text-[#555]'><Link to='categories/Jackets'> Jackets </Link></span>
@@ -17,7 +17,7 @@ const Footer = () => {
                     <span className='text-xs font-semibold py-1 text-[#555]'><Link to='newarrivals'> New Arrivals </Link></span>
                 </div>
             </div>
-            <div className="left-2 ">
+            <div className="left-2 container ">
                 <h2 className='text-md font-bold py-2 text-[#333]'>Links</h2>
                 <div className="categories flex flex-col">
                     <span className='text-xs font-semibold py-1 text-[#555]'>FAQ</span>
@@ -29,9 +29,9 @@ const Footer = () => {
             </div>
             </div>
 
-            <div className='right-side flex container gap-16'>
+            <div className='right-side flex container gap-[10%] select-none p-[5%]'>
 
-            <div className="right-1 container ">
+            <div className="right-2 container ">
                 <h2 className='text-md font-bold py-2 text-[#333]'>About</h2>
                 <div className="categories">
                     <span className='text-xs font-semibold text-[#555]'>

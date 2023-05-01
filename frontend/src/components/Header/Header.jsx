@@ -80,18 +80,18 @@ const Header = () => {
         </div>
         <div className="right mr-5 flex gap-4 select-none justify-between ">
           <div className="icons flex gap-4">
-            <div className="cart relative  xs:block">
+            <div className="cart relative top-1  xs:block">
               <div
                 onClick={() => setCartModal((prev) => !prev)}
                 className="hover:opacity-[0.7] cursor-pointer "
               >
-                <span className=" text-[11px] -top-2 left-3 absolute  text-white font-bold bg-blue-900 px-[5px] mt-[1px] py-[1px] rounded-full">
+                <span className=" text-[11px] -top-2 left-3 absolute  text-white z-10 font-bold bg-blue-900 px-[5px] mt-[1px] py-[1px] rounded-full">
                   {Array.isArray(data)? data.length : 0}
                 </span>
-                <AiOutlineShoppingCart className=" text-2xl text-white  " />
+                <AiOutlineShoppingCart className=" text-2xl text-white xs:absolute  " />
               </div>
               {cartModal && (
-                <div className="triangle absolute top-[155%] rotate-[180deg] "></div>
+                <div className="triangle absolute top-[133%] rotate-[180deg] "></div>
               )}
               {cartModal && <Cart setCartModal={setCartModal} />}
             </div>
