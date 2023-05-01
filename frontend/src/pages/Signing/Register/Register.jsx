@@ -43,7 +43,7 @@ const Register = ({ setSignUp }) => {
 
   return (
     <div className="bg-black flex justify-center h-[100vh] items-center">
-      <div className="signup-container w-[40%] h-[100vh] items-center justify-center flex px-7 bg-white">
+      <div className="signup-container w-[40%] xs:w-[90%]  h-[100vh] items-center justify-center flex px-7 bg-white">
         <div className="flex container flex-col">
           <div className="flex text-center justify-center text-2xl font-bold">
             Ecommerce
@@ -162,7 +162,7 @@ const Register = ({ setSignUp }) => {
               </div>
             </div>
           </form>
-          <Link to="/" className="py-2 w-[30%]">
+          <Link to="/" className="py-2 w-[30%] xs:w-[40%]">
             <span className="flex items-center gap-1 underline text-blue-800 capitalize hover:opacity-[0.7] active:text-red-600">
               {" "}
               <AiOutlineArrowLeft /> back to Home

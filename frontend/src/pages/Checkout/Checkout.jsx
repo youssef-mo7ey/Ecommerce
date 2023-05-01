@@ -72,7 +72,7 @@ const Checkout = () => {
             return (
               <div key={item.id+i}>
                 <div className="flex flex-col p-8 xs:px-0">
-                  <div className="flex justify-between items-center bg-gray-200 p-3">
+                  <div className="flex justify-between items-center min-w-[300px] bg-gray-200 p-3">
                     <div className="flex ">
                       <img src={item.img1} alt="" className="w-[25%] min-w-[80px]" />
                       <p className="pl-[20px] text-2xl mt-6 xs:px-2">{item.name}</p>

@@ -91,7 +91,7 @@ function Home() {
         </div>
       </div>
 
-      <h3 className="text-center my-10 text-xl font-bold text-[#222] select-none">
+      <h3 className="text-center my-10 w-full  text-xl font-bold text-[#222] select-none">
         New Collections
       </h3>
       <div className=" grid xl:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 px-10">
@@ -100,8 +100,8 @@ function Home() {
         })}
       </div>
 
-      <div className="container hidden md:block">
-        <h3 className="text-center mt-10 text-xl font-bold text-[#222] select-none">
+      <div className="grid-container hidden md:block">
+        <h3 className="text-center mt-10 text-xl  w-full font-bold text-[#222] select-none">
           Collections
         </h3>
         <GridView />

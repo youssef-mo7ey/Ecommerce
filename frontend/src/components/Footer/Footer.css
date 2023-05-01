@@ -1,10 +1,9 @@
 .footer{
     display: flex;
     justify-content: space-between;
-    vertical-align: top;
-    padding-top: 4%;
-    padding-bottom: 70px;
     box-shadow: 1px -20px 23px -6px rgba(184, 184, 184, 0.59);
+    max-height: 30vh;
+    padding-bottom: 20%;
     
     
 }

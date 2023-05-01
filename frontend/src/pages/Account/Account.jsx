@@ -49,11 +49,11 @@ const Account = () => {
     setAddrEdit(false);
   };
   return (
-    <div className="flex flex-col min-h-[100vh]">
+    <div className="flex flex-col min-h-[100vh] ">
       <div className="text-3xl text-center py-5">Hello , {user.username}</div>
       <hr />
-      <div className="flex h-full min-h-[100vh]">
-        <div className="text-white text-2xl left-side flex flex-col justify-between w-[25%] bg-black">
+      <div className="flex h-full min-h-[100vh] xs:w-[100vw]">
+        <div className="text-white text-2xl left-side flex flex-col justify-between w-[25%] xs:w-[40%] bg-black">
           <div>
             <div
               onClick={() => setSelector(0)}
@@ -77,7 +77,7 @@ const Account = () => {
             </button>
           </div>
         </div>
-        <div className="right-side p-10">
+        <div className="right-side p-10 xs:p-2 overflow-auto ">
           {selector === 0 && (
             <div className="account-info flex flex-col gap-2">
               <div className="email">
@@ -153,7 +153,7 @@ const Account = () => {
             </div>
           )}
           {selector === 2 && (
-            <div className="flex">
+            <div className="flex container ">
               <Checkout />
             </div>
           )}

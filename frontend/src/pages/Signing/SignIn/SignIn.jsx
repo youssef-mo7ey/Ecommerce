@@ -42,7 +42,7 @@ const SignIn = ({ setSignUp }) => {
 
   return (
     <div className="bg-black flex justify-center h-[100vh] items-center">
-      <div className="login-container w-[40%] h-[100vh] items-center justify-center flex px-7 bg-white">
+      <div className="login-container w-[40%] xs:w-[90%] h-[100vh] items-center justify-center flex px-7 bg-white">
         <div className="flex container flex-col">
           <div className="flex text-center justify-center text-2xl font-bold">
             Ecommerce
