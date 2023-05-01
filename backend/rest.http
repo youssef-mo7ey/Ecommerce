@@ -1,0 +1,126 @@
+###
+GET http://localhost:3000/console
+
+### get all
+GET http://localhost:3000/products
+
+###post all
+POST http://localhost:3000/products/postall
+
+
+### post
+
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+        "img1": "../assets/assets/product_02.jpg",
+        "img2": "../assets/assets/product_02b.jpg",
+        "price":95,
+        "tag":"New",
+        "label": "Tops",
+        "inStock":[
+            {
+                "size":"3XL",
+                "pieces":4
+            },
+            {
+                "size":"XL",
+                "pieces":10
+            },
+            {
+                "size":"L",
+                "pieces":13
+            },
+                        {
+                "size":"M",
+                "pieces":19
+            },
+                        {
+                "size":"S",
+                "pieces":25
+            }
+        ],
+        "name":"pants 8",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+
+###get one
+
+GET http://localhost:3000/products
+
+
+###patch
+
+PATCH http://localhost:3000/products/642b2f6f0419a62f968eaf58
+Content-Type: application/json
+
+{
+    "name":"test 1"
+}
+
+###delete
+
+DELETE http://localhost:3000/products
+
+###Get users
+
+GET http://localhost:3000/users
+
+
+###Register user
+
+POST http://localhost:3000/users/register
+Content-Type: application/json
+
+{
+    "username":"ahmed-test",
+    "email":"ahmed@test.com",
+    "password":"ATest1234"
+}
+
+###login user
+
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+    "username":"yousef-test",
+    //"email":"youssef@test.com",
+    "password":"test1234"
+}
+
+
+###Add Phone 
+
+PATCH  http://localhost:3000/users/phone/642cc0bc81f09f6f59241528
+Content-Type: application/json
+
+{
+    "phone":"0123456789"
+}
+###Add Address 
+
+PATCH  http://localhost:3000/users/address/642c96b0e77ffe95fb2d1d05
+Content-Type: application/json
+
+{
+    "address":"1 ABC st."
+}
+
+###Get likes
+
+GET http://localhost:3000/likes
+
+###POST Liked
+
+POST http://localhost:3000/likes
+Content-Type: application/json
+
+{
+    "userId":"642c96b0e77ffe95fb2d1d05",
+    "prodId":"642c8e7c7589c9e72b5dd299"
+}
+###Delete Liked
+
+DELETE http://localhost:3000/likes/642c9af27f95d67eb389eaa4

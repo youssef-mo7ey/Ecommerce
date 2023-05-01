@@ -1,0 +1,395 @@
+[
+    {
+        "img1": "../assets/assets/product_01.jpg",
+        "img2": "../assets/assets/product_01b.jpg",
+        "price":30,
+        "id":"1",
+        "tag":"New",
+        "label": ["Tops"],
+        "inStock":[
+            {
+                "size":"XL",
+                "pieces":9
+            },
+            {
+                "size":"L",
+                "pieces":13
+            },
+                        {
+                "size":"M",
+                "pieces":19
+            },
+                        {
+                "size":"S",
+                "pieces":25
+            },
+                        {
+                "size":"XS",
+                "pieces":35
+            }
+        ],
+        "name":"top 6",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        
+    },
+    {
+        "img1": "../assets/assets/product_02.jpg",
+        "img2": "../assets/assets/product_02b.jpg",
+        "price":70,
+        "id":"2",
+        "tag":"New",
+        "label": ["Tops"],
+        "inStock":[
+            {
+                "size":"3XL",
+                "pieces":4
+            },
+            {
+                "size":"XL",
+                "pieces":10
+            },
+            {
+                "size":"L",
+                "pieces":13
+            },
+                        {
+                "size":"M",
+                "pieces":19
+            },
+                        {
+                "size":"S",
+                "pieces":25
+            }
+        ],
+        "name":"top 7",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "img1": "../assets/assets/product_03.jpg",
+        "img2": "../assets/assets/product_03b.jpg",
+        "price":85,
+        "id":"3",
+        "tag":"New",
+        "label": ["Tops"],
+        "inStock":[
+            {
+                "size":"L",
+                "pieces":13
+            },
+                        {
+                "size":"M",
+                "pieces":19
+            },
+                        {
+                "size":"S",
+                "pieces":25
+            }
+        ],
+        "name":"top 1",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "img1": "../assets/assets/product_04.jpg",
+        "img2": "../assets/assets/product_04b.jpg",
+        "price":30,
+        "id":"4",
+        "tag":"New",
+        "label": ["Tops"],
+        "inStock":[
+            {
+                "size":"L",
+                "pieces":13
+            },
+                        {
+                "size":"M",
+                "pieces":19
+            },
+                        {
+                "size":"S",
+                "pieces":25
+            },
+            {
+                "size":"XS",
+                "pieces":30
+            }
+        ],
+        "name":"top 2",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "img1": "../assets/assets/product_05.jpg",
+        "img2": "../assets/assets/product_05b.jpg",
+        "price":100,
+        "id":"5",
+        "tag":"Featured",
+        "label": ["Tops"],
+        "inStock":[
+            {
+                "size":"L",
+                "pieces":13
+            },
+                        {
+                "size":"M",
+                "pieces":19
+            },
+                        {
+                "size":"S",
+                "pieces":25
+            }
+        ],
+        "name":"top 3",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "img1": "../assets/assets/product_06.jpg",
+        "img2": "../assets/assets/product_06b.jpg",
+        "price":60,
+        "id":"6",
+        "tag":"Featured",
+        "label": ["Tops"],
+        "inStock":[
+            {
+                "size":"L",
+                "pieces":13
+            },
+                        {
+                "size":"M",
+                "pieces":19
+            },
+                        {
+                "size":"S",
+                "pieces":25
+            }
+        ],
+        "name":"top 3",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "img1": "../assets/assets/product_07.jpg",
+        "img2": "../assets/assets/product_07b.jpg",
+        "price":45,
+        "id":"7",
+        "tag":"New",
+        "label": ["Tops"],
+        "inStock":[
+            {
+                "size":"XL",
+                "pieces":7
+            },
+            {
+                "size":"L",
+                "pieces":13
+            },
+                        {
+                "size":"M",
+                "pieces":19
+            },
+                        {
+                "size":"S",
+                "pieces":25
+            }
+        ],
+        "name":"top 4",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "img1": "../assets/assets/product_08.jpg",
+        "img2": "../assets/assets/product_08b.jpg",
+        "id":"8",
+        "price":80,
+        "tag":"Featured",
+        "label": ["Tops"],
+        "inStock":[
+            {
+                "size":"L",
+                "pieces":13
+            },
+                        {
+                "size":"M",
+                "pieces":19
+            },
+                        {
+                "size":"S",
+                "pieces":25
+            }
+        ],
+        "name":"top 5",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "img1": "../assets/assets/product_09.jpg",
+        "img2": "../assets/assets/product_09b.jpg",
+        "price":50,
+        "id":"9",
+        "tag":"Featured",
+        "label": ["Pants"],
+        "inStock":[
+            {
+                "size":"L",
+                "pieces":13
+            },
+                        {
+                "size":"M",
+                "pieces":19
+            },
+                        {
+                "size":"S",
+                "pieces":25
+            }
+        ],
+        "name":"pants 3",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "img1": "../assets/assets/product_10.jpg",
+        "img2": "../assets/assets/product_10b.jpg",
+        "price":100,
+        "id":"10",
+        "tag":"Featured",
+        "label": ["Jackets"],
+        "inStock":[
+            {
+                "size":"L",
+                "pieces":13
+            },
+                        {
+                "size":"M",
+                "pieces":19
+            },
+                        {
+                "size":"S",
+                "pieces":25
+            }
+        ],
+        "name":"test",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "img1": "../assets/assets/shoe3.jpg",
+        "img2": "../assets/assets/shoe3-2.jpg",
+        "price":70,
+        "id":"11",
+        "tag":"Featured",
+        "label": ["Shoes"],
+        "inStock":[
+            {
+                "size":"L",
+                "pieces":19
+            },
+                        {
+                "size":"M",
+                "pieces":9
+            },
+                        {
+                "size":"S",
+                "pieces":5
+            }
+        ],
+        "name":"shoe 1",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "img1": "../assets/assets/shoe4.jpg",
+        "img2": "../assets/assets/shoe4-2.jpg",
+        "price":65,
+        "id":"12",
+        "tag":"Featured",
+        "label": ["Shoes"],
+        "inStock":[
+            {
+                "size":"L",
+                "pieces":25
+            },
+                        {
+                "size":"M",
+                "pieces":18
+            },
+                        {
+                "size":"S",
+                "pieces":19
+            }
+        ],
+        "name":"shoe 2",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "img1": "../assets/assets/pants1.jpg",
+        "img2": "../assets/assets/pants1-2.jpg",
+        "price":80,
+        "id":"13",
+        "tag":"New",
+        "label": ["Pants"],
+        "inStock":[
+            {
+                "size":"L",
+                "pieces":25
+            },
+                        {
+                "size":"M",
+                "pieces":18
+            },
+                        {
+                "size":"S",
+                "pieces":19
+            }
+        ],
+        "name":"pants 1",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "img1": "../assets/assets/pants2.jpg",
+        "img2": "../assets/assets/pants2-2.jpg",
+        "price":35,
+        "id":"14",
+        "tag":"Featured",
+        "label": ["Pants"],
+        "inStock":[
+            {
+                "size":"L",
+                "pieces":13
+            },
+                        {
+                "size":"M",
+                "pieces":10
+            },
+                        {
+                "size":"S",
+                "pieces":25
+            }
+        ],
+        "name":"pants 2",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "img1": "../assets/assets/acc1.jpg",
+        "img2": "../assets/assets/acc1-2.jpg",
+        "price":90,
+        "id":"15",
+        "tag":"New",
+        "label": ["Acces"],
+        "inStock":[
+            {   
+                "size":"single",
+                "pieces":13
+            }
+        ],
+        "name":"Bag 1",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "img1": "../assets/assets/acc2.jpg",
+        "img2": "../assets/assets/acc2-2.jpg",
+        "price":35,
+        "id":"16",
+        "tag":"Featured",
+        "label": ["Acces"],
+        "inStock":[
+            {
+                "size":"single",
+                "pieces":7
+            }
+        ],
+        "name":"Cap 1",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+]

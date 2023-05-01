@@ -1,0 +1,17 @@
+.left p{
+    text-transform: capitalize;
+}
+.header{
+    box-shadow: 2px 17px 25px -7px rgba(0,0,0,0.5);
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid black;
+}
+.triangle:hover{
+opacity: 1;
+}

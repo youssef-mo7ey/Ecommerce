@@ -1,0 +1,11 @@
+.heart{
+    border: none;
+}
+
+.tooltip{
+    visibility: hidden;
+}
+
+.tooltip-like:hover .tooltip{
+    visibility: visible;
+}

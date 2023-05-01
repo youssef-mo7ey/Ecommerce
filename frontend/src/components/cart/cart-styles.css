@@ -1,0 +1,14 @@
+.cart-buffer{
+    animation: buffer 650ms linear 0s infinite normal none;
+
+}
+
+@keyframes buffer {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}

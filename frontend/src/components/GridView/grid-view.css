@@ -1,0 +1,13 @@
+
+.img-container .shade{
+    transition:all 300s ease-in;
+    display: none;
+}
+
+.img-container:hover .shade{
+    display: block;
+}
+
+.img-container{
+    cursor: pointer;
+}
